@@ -3,7 +3,10 @@ $(function OnLoad() {
         window.alert("data activated")
         var items = [];
         $.each(data,function(key,val) {
-            items.push("<li>");
+            $.each(val, function(K,V) {
+
+                $("#RestrauntsList").append("<li>Suck Nuts</li>")
+            })
             
         })
     })
