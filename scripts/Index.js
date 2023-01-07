@@ -1,6 +1,6 @@
 $(function OnLoad() {
     $.getJSON("Restraunts/Restraunts.json",function(data) {
-        window.alert("data activated")
+        window.alert(data)
         var items = [];
         $.each(data,function(key,val) {
             
