@@ -3,10 +3,10 @@ $(function OnLoad() {
         window.alert("data activated")
         var items = [];
         $.each(data,function(key,val) {
-            $.each(val, function(K,V) {
+            
 
-                $("#RestrauntsList").append("<li>Suck Nuts</li>")
-            })
+            $("#RestrauntsList").append("<li>Suck Nuts</li>")
+            
             
         })
     })
