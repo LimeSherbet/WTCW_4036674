@@ -3,7 +3,7 @@ $(function OnLoad() {
         $.each(data,function(key,val) {
             
 
-            $("#RestrauntsList").append("<li>" + val.name +" " + val.url + "</li>")
+            $("#RestrauntsList").append(`<li href = https://limesherbet.github.io/WTCW_4036674/Template/Restraunt.html?Restraunt${encodeURIComponent(val.url)}>${val.name}<\li>`)
             
             
             
