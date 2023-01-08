@@ -4,8 +4,22 @@ $(function OnLoad() {
     var URLParmeter = URLObject.searchParams.get("Restaurant");
     window.alert(URLParmeter);
     $.getJSON("../"+ URLParmeter + "/Restaurant.json", function (data) {
+        window.alert(data.About);
         $.each(data, function (key, val) {
-            window.alert(key + val);
+            switch (key) {
+                case "About":
+                    
+                    break;
+                case "WebsiteLink":
+                    break;
+                case "MapURL":
+                    break;
+                case "Socials":
+                    break;
+            
+                default:
+                    break;
+            }
 
         })
     })
