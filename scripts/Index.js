@@ -5,7 +5,7 @@ $(function OnLoad() {
         $.each(data,function(key,val) {
             
 
-            $("#RestrauntsList").append("<li>Suck Nuts</li>")
+            $("#RestrauntsList").append("<li>" + key + val + "</li>")
             
             
             
