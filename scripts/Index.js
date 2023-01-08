@@ -3,7 +3,7 @@ $(function OnLoad() {
         $.each(data,function(key,val) {
             
 
-            $("#RestrauntsList").append("<li>" + key + val + "</li>")
+            $("#RestrauntsList").append("<li>" + val.name +" " + val.url + "</li>")
             
             
             
