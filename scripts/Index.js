@@ -3,7 +3,7 @@ $(function OnLoad() {
         $.each(data,function(key,val) {
             
 
-            $("#RestrauntsList").append(`<li><a href=https://limesherbet.github.io/WTCW_4036674/Template/Restraunt.html?Restraunt=${encodeURIComponent(val.url)}>${val.name}</a></li>`)
+            $("#RestrauntsList").append(`<li><a href=https://limesherbet.github.io/WTCW_4036674/Template/Restaurant.html?Restaurant=${encodeURIComponent(val.url)}>${val.name}</a></li>`)
             
             
             
