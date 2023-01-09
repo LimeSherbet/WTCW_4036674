@@ -1,11 +1,9 @@
-function StringifyValues(value) {
-    if(value.includes('.')){
-        return value
-    }
-    else {
-        return value + ".00"
-    }
-
+function CurrencyConvert(value) {
+    const formatter = new Intl.NumberFormat('en_gb', {
+        style: 'currency',
+        currency: 'GBP'
+    });
+    return formatter.format(value);
 }
 
 $(function OnLoad() {
@@ -16,12 +14,12 @@ $(function OnLoad() {
 
 
         $.each(data.alcholoic,function(key,value) {
-            $("#Alcohol").append(`<p>${value.Name} ${StringifyValues(value.Price)}</p>`);
+            $("#Alcohol").append(`<p>${value.Name} ${CurrencyConvert(value.Price)}</p>`);
         })
 
 
         $.each(data.NonAlcoholic,function(key,value) {
-            $("#Non-Alcoholic").append(`<p>${value.Name} ${StringifyValues(value.Price)}</p>`);
+            $("#Non-Alcoholic").append(`<p>${value.Name} ${CurrencyConvert(value.Price)}</p>`);
         })
 
     })

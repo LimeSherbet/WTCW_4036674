@@ -1,11 +1,9 @@
-function StringifyValues(value) {
-    if(value.includes('.')){
-        return value
-    }
-    else {
-        return value + ".00"
-    }
-
+function CurrencyConvert(value) {
+    const formatter = new Intl.NumberFormat('en_gb', {
+        style: 'currency',
+        currency: 'GBP'
+    });
+    return formatter.format(value);
 }
 
 $(function OnLoad() {
@@ -17,17 +15,17 @@ $(function OnLoad() {
 
 
         $.each(data.Starters,function(key,value) {
-            $("#Starters").append(`<p>${value.Name} ${StringifyValues(value.Price)}</p>`);
+            $("#Starters").append(`<p>${value.Name} ${CurrencyConvert(value.Price)}</p>`);
         })
 
 
         $.each(data.Mains,function(key,value) {
-            $("#Mains").append(`<p>${value.Name} ${StringifyValues(value.Price)}</p>`);
+            $("#Mains").append(`<p>${value.Name} ${CurrencyConvert(value.Price)}</p>`);
         })
 
         $.each(data.Desert,function(key,value) {
             window.alert(value.Price);
-            $("#Deserts").append(`<p>${value.Name} ${StringifyValues(value.Price)}</p>`);
+            $("#Deserts").append(`<p>${value.Name} ${CurrencyConvert(value.Price)}</p>`);
         })
 
 
