@@ -29,3 +29,14 @@ $(function OnLoad() {
 
     document.title = "Food Menu - " + URLParmeter;
 })
+
+
+function StringifyValues(value) {
+    if(value.includes('.')){
+        return value
+    }
+    else {
+        return value + ".00"
+    }
+
+}
