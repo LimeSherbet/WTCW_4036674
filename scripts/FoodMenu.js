@@ -1,5 +1,5 @@
 function CurrencyConvert(value) {
-    const formatter = new Intl.NumberFormat('en_gb', {
+    const formatter = new Intl.NumberFormat('en-GB', {
         style: 'currency',
         currency: 'GBP'
     });
