@@ -16,6 +16,7 @@ $(function OnLoad() {
         })
 
         $.each(data.Desert,function(key,value) {
+            window.alert(value.Price);
             $("#Deserts").append(`<p>${value.Name} ${value.Price}</p>`);
         })
 
