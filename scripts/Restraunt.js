@@ -4,7 +4,7 @@ $(function OnLoad() {
     var URLParmeter = URLObject.searchParams.get("Restaurant");
     window.alert(URLParmeter);
     $.getJSON("../"+ URLParmeter + "/Restaurant.json", function (data) {
-        $("#BlurbText").innerHTML = data.About;
+        $("#BlurbText").text = data.About;
 
 
 
