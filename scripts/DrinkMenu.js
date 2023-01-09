@@ -1,4 +1,4 @@
-(function OnLoad() {
+$(function OnLoad() {
     var urlString = document.location.href;
     var URLObject = new URL(urlString);
     var URLParmeter = URLObject.searchParams.get("Restaurant");
