@@ -1,3 +1,13 @@
+function StringifyValues(value) {
+    if(value.includes('.')){
+        return value
+    }
+    else {
+        return value + ".00"
+    }
+
+}
+
 $(function OnLoad() {
     var urlString = document.location.href;
     var URLObject = new URL(urlString);
@@ -31,12 +41,3 @@ $(function OnLoad() {
 })
 
 
-function StringifyValues(value) {
-    if(value.includes('.')){
-        return value
-    }
-    else {
-        return value + ".00"
-    }
-
-}
