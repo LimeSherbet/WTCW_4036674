@@ -15,4 +15,6 @@ $(function OnLoad() {
         $("#Socials").append("<a class = 'icon-block' href="+ data.Socials.Facebook +"><i class='fa-brands fa-facebook'></i>Facebook</a>");
         
     })
+
+    document.title = "About - " + URLParmeter;
 })

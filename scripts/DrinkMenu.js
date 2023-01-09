@@ -19,4 +19,6 @@ $(function OnLoad() {
     $("#About").attr("href","../Templates/Restaurant?Restaurant="+ URLParmeter);
     $("#FoodMenu").attr("href","../Templates/FoodMenu?Restaurant="+ URLParmeter);
     $("#DrinkMenu").attr("href",window.location.href);
+
+    document.title = "Drink Menu - " + URLParmeter;
 })
