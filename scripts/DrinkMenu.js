@@ -6,12 +6,12 @@ $(function OnLoad() {
 
 
         $.each(data.alcholoic,function(key,value) {
-            $("#Alcohol").append(`<p>${value.Name} ${value.Price}</p>`);
+            $("#Alcohol").append(`<p>${value.Name} ${StringifyValues(value.Price)}</p>`);
         })
 
 
         $.each(data.NonAlcoholic,function(key,value) {
-            $("#Non-Alcoholic").append(`<p>${value.Name} ${value.Price}</p>`);
+            $("#Non-Alcoholic").append(`<p>${value.Name} ${StringifyValues(value.Price)}</p>`);
         })
 
     })
@@ -22,3 +22,15 @@ $(function OnLoad() {
 
     document.title = "Drink Menu - " + URLParmeter;
 })
+
+
+
+function StringifyValues(value) {
+    if(value.includes('.')){
+        return value
+    }
+    else {
+        return value + ".00"
+    }
+
+}

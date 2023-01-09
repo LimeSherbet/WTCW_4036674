@@ -7,17 +7,17 @@ $(function OnLoad() {
 
 
         $.each(data.Starters,function(key,value) {
-            $("#Starters").append(`<p>${value.Name} ${value.Price}</p>`);
+            $("#Starters").append(`<p>${value.Name} ${StringifyValues(value.Price)}</p>`);
         })
 
 
         $.each(data.Mains,function(key,value) {
-            $("#Mains").append(`<p>${value.Name} ${value.Price}</p>`);
+            $("#Mains").append(`<p>${value.Name} ${StringifyValues(value.Price)}</p>`);
         })
 
         $.each(data.Desert,function(key,value) {
             window.alert(value.Price);
-            $("#Deserts").append(`<p>${value.Name} ${value.Price}</p>`);
+            $("#Deserts").append(`<p>${value.Name} ${StringifyValues(value.Price)}</p>`);
         })
 
 
