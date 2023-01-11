@@ -1,5 +1,6 @@
 div.listContainer {
     text-align: center;
+    height: 80%;
     box-shadow:
         2.9px 3.4px 1.8px -10px rgba(0, 0, 0, 0.031),
         7.4px 8.7px 4.5px -10px rgba(0, 0, 0, 0.044),
