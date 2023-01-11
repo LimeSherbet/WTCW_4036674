@@ -1,6 +1,5 @@
-div.container{
+.container{
     text-align: center;
-    display: inline-block;
 }
 
 #RestrauntsList {
