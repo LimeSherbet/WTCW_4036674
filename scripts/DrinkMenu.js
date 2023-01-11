@@ -10,7 +10,7 @@ $(function OnLoad() {
     var urlString = document.location.href;
     var URLObject = new URL(urlString);
     var URLParmeter = URLObject.searchParams.get("Restaurant");
-    $.getJSON("../"+ URLParmeter + "/Drinks.json", function (data) {
+    $.getJSON("/"+ URLParmeter + "/Drinks.json", function (data) {
 
 
         $.each(data.alcholoic,function(key,value) {
@@ -24,8 +24,8 @@ $(function OnLoad() {
 
     })
 
-    $("#About").attr("href","../Templates/Restaurant?Restaurant="+ URLParmeter);
-    $("#FoodMenu").attr("href","../Templates/FoodMenu?Restaurant="+ URLParmeter);
+    $("#About").attr("href","/Restaurant?Restaurant="+ URLParmeter);
+    $("#FoodMenu").attr("href","/FoodMenu?Restaurant="+ URLParmeter);
     $("#DrinkMenu").attr("href",window.location.href);
 
     document.title = "Drink Menu - " + URLParmeter;

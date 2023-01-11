@@ -11,7 +11,7 @@ $(function OnLoad() {
     var URLObject = new URL(urlString);
     var URLParmeter = URLObject.searchParams.get("Restaurant");
     
-    $.getJSON("../"+ URLParmeter + "/Food.json", function (data) {
+    $.getJSON("/"+ URLParmeter + "/Food.json", function (data) {
 
 
         $.each(data.Starters,function(key,value) {
@@ -31,9 +31,9 @@ $(function OnLoad() {
 
     })
 
-    $("#About").attr("href", "../Templates/Restaurant?Restaurant="+ URLParmeter);
+    $("#About").attr("href", "/Restaurant?Restaurant="+ URLParmeter);
     $("#FoodMenu").attr("href",window.location.href);
-    $("#DrinkMenu").attr("href","../Templates/DrinkMenu?Restaurant="+ URLParmeter);
+    $("#DrinkMenu").attr("href","/DrinkMenu?Restaurant="+ URLParmeter);
 
     document.title = "Food Menu - " + URLParmeter;
 })

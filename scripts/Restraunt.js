@@ -8,11 +8,12 @@ $(function OnLoad() {
         $("#RestrauntLocation").attr("src",data.MapURL);
         $("#VisitWebsite").attr("href", data.WebsiteLink);
         $("#About").attr("href", window.location.href);
-        $("#FoodMenu").attr("href","../Templates/FoodMenu?Restaurant="+ URLParmeter);
-        $("#DrinkMenu").attr("href","../Templates/DrinkMenu?Restaurant="+ URLParmeter);
+        $("#FoodMenu").attr("href","/FoodMenu?Restaurant="+ URLParmeter);
+        $("#DrinkMenu").attr("href","/DrinkMenu?Restaurant="+ URLParmeter);
         $("#Socials").append("<a class = 'icon-block' href="+ data.Socials.Twitter +"><i class='fa-brands fa-twitter'></i>Twitter</a>");
         $("#Socials").append("<a class = 'icon-block' href="+ data.Socials.Instagram +"> <i class='fa-brands fa-instagram'></i>Instagram</a>");
         $("#Socials").append("<a class = 'icon-block' href="+ data.Socials.Facebook +"><i class='fa-brands fa-facebook'></i>Facebook</a>");
+        $(".header h1").text(URLParmeter);
     })
     document.title = "About - " + URLParmeter;
 })
