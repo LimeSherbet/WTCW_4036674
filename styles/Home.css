@@ -11,12 +11,18 @@ div.listContainer {
 
 #RestrauntsList {
     list-style: none;
-    display: inline-block;
+    display: inline-table;
     text-align: left;
+    height: 80%;
 }
 
 li {
     margin: 20px 0;
+    display: table-row;
+}
+
+li::before{
+    float: left;
 }
 
 body{
