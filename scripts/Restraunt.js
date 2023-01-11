@@ -13,8 +13,6 @@ $(function OnLoad() {
         $("#Socials").append("<a class = 'icon-block' href="+ data.Socials.Twitter +"><i class='fa-brands fa-twitter'></i>Twitter</a>");
         $("#Socials").append("<a class = 'icon-block' href="+ data.Socials.Instagram +"> <i class='fa-brands fa-instagram'></i>Instagram</a>");
         $("#Socials").append("<a class = 'icon-block' href="+ data.Socials.Facebook +"><i class='fa-brands fa-facebook'></i>Facebook</a>");
-        
     })
-
     document.title = "About - " + URLParmeter;
 })
