@@ -31,9 +31,9 @@ $(function OnLoad() {
 
     })
 
-    $("#About").attr("href", "/Restaurant?Restaurant="+ URLParmeter);
+    $("#About").attr("href", "./Restaurant?Restaurant="+ URLParmeter);
     $("#FoodMenu").attr("href",window.location.href);
-    $("#DrinkMenu").attr("href","/DrinkMenu?Restaurant="+ URLParmeter);
+    $("#DrinkMenu").attr("href","./DrinkMenu?Restaurant="+ URLParmeter);
 
     document.title = "Food Menu - " + URLParmeter;
 })
