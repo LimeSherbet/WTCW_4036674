@@ -1,5 +1,6 @@
-.container{
+div.listContainer{
     text-align: center;
+    box-shadow: inset;
 }
 
 #RestrauntsList {
