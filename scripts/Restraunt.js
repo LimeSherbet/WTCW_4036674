@@ -4,7 +4,7 @@ $(function OnLoad() {
         $("#BlurbText").text(data.About);
         $("#RestrauntLocation").attr("src", data.MapURL);
         $("#VisitWebsite").attr("href", data.WebsiteLink);
-        SetSocials(data);
+        SetSocialsWithJson(data);
         $(".header h1").text(URLParmeter);
     })
     setRestaurantNavigation();
