@@ -10,7 +10,6 @@ div.listContainer {
     height: 80%;
     flex-direction: column;
     flex: 1;
-    overflow: auto;
     display: grid;
     grid-template-columns: repeat(7,1fr);
     grid-auto-rows: 1fr;
