@@ -8,7 +8,7 @@ div.listContainer {
         31px 36.5px 19px -10px rgba(0, 0, 0, 0.069),
         85px 100px 52px -10px rgba(0, 0, 0, 0.1);
         height: 80%;
-
+        flex-direction: column;
 }
 
 #RestrauntsList {
