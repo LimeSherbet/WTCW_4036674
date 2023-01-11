@@ -1,0 +1,10 @@
+div.container{
+    text-align: center;
+    display: inline-block;
+}
+
+#RestrauntsList {
+    list-style: none;
+    display: inline-block;
+    text-align: left;
+}
