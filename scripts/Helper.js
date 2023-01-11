@@ -19,7 +19,7 @@ function SetSocials(data) {
 }
 
 function SetSocials() {
-    $.getJSON(URLParmeter + "/Restaurant.json", function (data) {
+    $.getJSON(GetURLRestaurantParameter() + "/Restaurant.json", function (data) {
         SetSocials(data);
     })
 }
@@ -29,22 +29,22 @@ function setRestaurantNavigation() {
 
     if (currentURL.includes("Restaurant.html")) {
         $("#About").attr("href", window.location.href);
-        $("#FoodMenu").attr("href", "https://limesherbet.github.io/WTCW_4036674/FoodMenu.html?Restaurant=" + URLParmeter);
-        $("#DrinkMenu").attr("href", "https://limesherbet.github.io/WTCW_4036674/DrinkMenu.html?Restaurant=" + URLParmeter);
+        $("#FoodMenu").attr("href", "https://limesherbet.github.io/WTCW_4036674/FoodMenu.html?Restaurant=" + GetURLRestaurantParameter());
+        $("#DrinkMenu").attr("href", "https://limesherbet.github.io/WTCW_4036674/DrinkMenu.html?Restaurant=" + GetURLRestaurantParameter());
     }
     else if (currentURL.includes("FoodMenu.html")) {
-        $("#About").attr("href", "https://limesherbet.github.io/WTCW_4036674/Restaurant.html?Restaurant=" + URLParmeter);
+        $("#About").attr("href", "https://limesherbet.github.io/WTCW_4036674/Restaurant.html?Restaurant=" + GetURLRestaurantParameter());
         $("#FoodMenu").attr("href", window.location.href);
-        $("#DrinkMenu").attr("href", "https://limesherbet.github.io/WTCW_4036674/DrinkMenu.html?Restaurant=" + URLParmeter);
+        $("#DrinkMenu").attr("href", "https://limesherbet.github.io/WTCW_4036674/DrinkMenu.html?Restaurant=" + GetURLRestaurantParameter());
     }
     else {
-        $("#About").attr("href", "https://limesherbet.github.io/WTCW_4036674/Restaurant.html?Restaurant=" + URLParmeter);
-        $("#FoodMenu").attr("href", "https://limesherbet.github.io/WTCW_4036674/FoodMenu.html?Restaurant=" + URLParmeter);
+        $("#About").attr("href", "https://limesherbet.github.io/WTCW_4036674/Restaurant.html?Restaurant=" + GetURLRestaurantParameter());
+        $("#FoodMenu").attr("href", "https://limesherbet.github.io/WTCW_4036674/FoodMenu.html?Restaurant=" + GetURLRestaurantParameter());
         $("#DrinkMenu").attr("href", window.location.href);
     }
 
-    $("#About").attr("href", "https://limesherbet.github.io/WTCW_4036674/Restaurant.html?Restaurant=" + URLParmeter);
-    $("#FoodMenu").attr("href", "https://limesherbet.github.io/WTCW_4036674/FoodMenu.html?Restaurant=" + URLParmeter);
+    $("#About").attr("href", "https://limesherbet.github.io/WTCW_4036674/Restaurant.html?Restaurant=" + GetURLRestaurantParameter());
+    $("#FoodMenu").attr("href", "https://limesherbet.github.io/WTCW_4036674/FoodMenu.html?Restaurant=" + GetURLRestaurantParameter());
     $("#DrinkMenu").attr("href", window.location.href);
 
 }
