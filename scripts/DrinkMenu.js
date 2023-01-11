@@ -10,7 +10,7 @@ $(function OnLoad() {
     var urlString = document.location.href;
     var URLObject = new URL(urlString);
     var URLParmeter = URLObject.searchParams.get("Restaurant");
-    $.getJSON("/"+ URLParmeter + "/Drinks.json", function (data) {
+    $.getJSON(URLParmeter + "/Drinks.json", function (data) {
 
 
         $.each(data.alcholoic,function(key,value) {

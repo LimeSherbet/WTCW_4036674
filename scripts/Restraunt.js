@@ -3,7 +3,7 @@ $(function OnLoad() {
     var URLObject = new URL(urlString);
     var URLParmeter = URLObject.searchParams.get("Restaurant");
     
-    $.getJSON("../"+ URLParmeter + "/Restaurant.json", function (data) {
+    $.getJSON(URLParmeter + "/Restaurant.json", function (data) {
         $("#BlurbText").text(data.About);
         $("#RestrauntLocation").attr("src",data.MapURL);
         $("#VisitWebsite").attr("href", data.WebsiteLink);
@@ -15,5 +15,6 @@ $(function OnLoad() {
         $("#Socials").append("<a class = 'icon-block' href="+ data.Socials.Facebook +"><i class='fa-brands fa-facebook'></i>Facebook</a>");
         $(".header h1").text(URLParmeter);
     })
+    
     document.title = "About - " + URLParmeter;
 })

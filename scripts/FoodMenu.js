@@ -11,7 +11,7 @@ $(function OnLoad() {
     var URLObject = new URL(urlString);
     var URLParmeter = URLObject.searchParams.get("Restaurant");
     
-    $.getJSON("/"+ URLParmeter + "/Food.json", function (data) {
+    $.getJSON(URLParmeter + "/Food.json", function (data) {
 
 
         $.each(data.Starters,function(key,value) {
