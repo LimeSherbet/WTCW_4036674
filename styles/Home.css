@@ -1,10 +1,13 @@
 div.listContainer{
     text-align: center;
-    box-shadow: inset;
 }
 
 #RestrauntsList {
     list-style: none;
     display: inline-block;
     text-align: left;
+}
+
+li{
+    margin: 20px 0;
 }
