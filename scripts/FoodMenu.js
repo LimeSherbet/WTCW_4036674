@@ -31,9 +31,9 @@ $(function OnLoad() {
 
     })
 
-    $("#About").attr("href", "../Restaurant.html?Restaurant="+ URLParmeter);
+    $("#About").attr("href", "https://limesherbet.github.io/WTCW_4036674/Restaurant.html?Restaurant="+ URLParmeter);
     $("#FoodMenu").attr("href",window.location.href);
-    $("#DrinkMenu").attr("href","../DrinkMenu.html?Restaurant="+ URLParmeter);
+    $("#DrinkMenu").attr("href","https://limesherbet.github.io/WTCW_4036674/DrinkMenu.html?Restaurant="+ URLParmeter);
 
     document.title = "Food Menu - " + URLParmeter;
 })

@@ -24,8 +24,8 @@ $(function OnLoad() {
 
     })
 
-    $("#About").attr("href","../Restaurant.html?Restaurant="+ URLParmeter);
-    $("#FoodMenu").attr("href","../FoodMenu.html?Restaurant="+ URLParmeter);
+    $("#About").attr("href","https://limesherbet.github.io/WTCW_4036674/Restaurant.html?Restaurant="+ URLParmeter);
+    $("#FoodMenu").attr("href","https://limesherbet.github.io/WTCW_4036674/FoodMenu.html?Restaurant="+ URLParmeter);
     $("#DrinkMenu").attr("href",window.location.href);
 
     document.title = "Drink Menu - " + URLParmeter;
