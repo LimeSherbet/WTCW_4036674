@@ -31,12 +31,10 @@ div.listContainer {
     list-style: none;
     display: inline-block;
     text-align: center;
-    align-items: center;
     list-style-position: inside;
 }
 
 li {
-    margin: 20px 0;
     text-align: left;
 }
 
