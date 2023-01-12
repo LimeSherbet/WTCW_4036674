@@ -6,6 +6,7 @@ function CurrencyConvert(value) {
     return formatter.format(value);
 }
 
+
 function GetURLRestaurantParameter() {
     var urlString = document.location.href;
     var URLObject = new URL(urlString);
