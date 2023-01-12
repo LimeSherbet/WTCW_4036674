@@ -33,6 +33,9 @@
   .col-10 {width: 83.33%;}
   .col-11 {width: 91.66%;}
   .col-12 {width: 100%;}
+  .header{
+    display: inline-block;
+  }
 }
 
 @media only screen and (min-width: 600px) {
@@ -49,12 +52,16 @@
   .col-s-10 {width: 83.33%;}
   .col-s-11 {width: 91.66%;}
   .col-s-12 {width: 100%;}
+  .header{
+    display: inline-block;
+  }
 }
 
 .footer {
   text-align: center;
 }
 
-.header{
-  display: inline-block;
+#Socials{
+  margin: auto;
+
 }
