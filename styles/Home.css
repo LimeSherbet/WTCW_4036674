@@ -35,6 +35,7 @@ div.listContainer {
 }
 
 li {
+    margin: auto;
     text-align: left;
 }
 
