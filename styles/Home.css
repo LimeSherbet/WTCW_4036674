@@ -31,6 +31,7 @@ div.listContainer {
     list-style: none;
     display: inline-block;
     text-align: left;
+    align-items: center;
 }
 
 li {
