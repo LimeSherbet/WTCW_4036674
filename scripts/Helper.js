@@ -50,3 +50,7 @@ function setRestaurantNavigation() {
     $("#DrinkMenu").attr("href", window.location.href);
 
 }
+
+function SetRestrauntHeader() {
+    $(".header h1").text(GetURLRestaurantParameter());
+}

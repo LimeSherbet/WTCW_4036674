@@ -5,8 +5,8 @@ $(function OnLoad() {
         $("#RestrauntLocation").attr("src", data.MapURL);
         $("#VisitWebsite").attr("href", data.WebsiteLink);
         SetSocialsWithJson(data);
-        $(".header h1").text(URLParmeter);
     })
+    SetRestrauntHeader();
     setRestaurantNavigation();
     document.title = "About - " + URLParmeter;
 })
