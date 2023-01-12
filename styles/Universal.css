@@ -3,18 +3,8 @@
   text-align: center;
 }
 
-#RestrauntMenu{
-  
-    background-color: blue;
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: 0;
-    margin: auto;
-    max-width: 100%;
-    max-height: 100%;
-    overflow: auto;
+#RestrauntMenu a{
+  float: none;
 
 }
 
