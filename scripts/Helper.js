@@ -24,6 +24,7 @@ function SetSocials() {
     })
 }
 
+
 function setRestaurantNavigation() {
     var currentURL = window.location.href;
 
