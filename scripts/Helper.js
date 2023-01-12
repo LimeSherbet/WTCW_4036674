@@ -28,7 +28,6 @@ function SetSocials() {
 
 function setRestaurantNavigation() {
     var currentURL = window.location.href;
-
     if (currentURL.includes("Restaurant.html")) {
         $("#About").attr("href", window.location.href);
         $("#FoodMenu").attr("href", "https://limesherbet.github.io/WTCW_4036674/FoodMenu.html?Restaurant=" + GetURLRestaurantParameter());
@@ -44,11 +43,6 @@ function setRestaurantNavigation() {
         $("#FoodMenu").attr("href", "https://limesherbet.github.io/WTCW_4036674/FoodMenu.html?Restaurant=" + GetURLRestaurantParameter());
         $("#DrinkMenu").attr("href", window.location.href);
     }
-
-    $("#About").attr("href", "https://limesherbet.github.io/WTCW_4036674/Restaurant.html?Restaurant=" + GetURLRestaurantParameter());
-    $("#FoodMenu").attr("href", "https://limesherbet.github.io/WTCW_4036674/FoodMenu.html?Restaurant=" + GetURLRestaurantParameter());
-    $("#DrinkMenu").attr("href", window.location.href);
-
 }
 
 function SetRestrauntHeader() {
