@@ -5,8 +5,14 @@
 
 #RestrauntMenu a{
   display: block;
-
+  padding: 8px;
+  background-color: indianred;
+  margin-bottom: 7px;
+  text-align: left;
+  text-decoration: none;
+  color: black;
 }
+
 
 .header{
   text-align: center;
