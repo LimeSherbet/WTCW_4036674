@@ -9,11 +9,11 @@
   background-color: indianred;
   margin-bottom: 7px;
   text-align: left;
-  color: black;
 }
 
 a {
   text-decoration: none !important;
+  color: black;
 }
 
 #RestrauntMenu a:hover{
