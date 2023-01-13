@@ -51,6 +51,7 @@ h1{
 aside{
     background-color: aquamarine;
     text-align: center;
+    padding: 10px;
 }
 
 footer a{
