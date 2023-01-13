@@ -67,6 +67,8 @@
 }
 
 .header h1{
-  text-align: left;
+   text-align: left;
+    background-color: indianred;
+    padding: 15px;
 }
 
