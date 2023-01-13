@@ -1,7 +1,19 @@
-#RestrauntBlurb h1{
+#RestrauntBlurb h1 {
     text-align: left;
 }
 
-#VisitWebsite{
+#VisitWebsite {
     background-color: rgb(166, 142, 72);
+}
+
+.footer a {
+    display: block;
+    padding: 8px;
+    background-color: indianred;
+    margin-bottom: 7px;
+    text-align: center;
+}
+
+.footer a:hover {
+    background-color: brown;
 }
