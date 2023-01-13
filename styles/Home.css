@@ -56,3 +56,7 @@ footer a{
     background-color: #24292f;
     text-align: center;
 }
+
+.row + div{
+    padding: 0;
+}
