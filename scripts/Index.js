@@ -6,7 +6,7 @@ $(function OnLoad() {
     })
 })
 
-function Query(QueryRestraunts) {
+function QueryRestraunts(QueryRestraunts) {
   var input, filter, ul, li, a, i, txtValue;
   input = document.getElementById('RestrauntSearch');
   filter = input.value.toUpperCase();
