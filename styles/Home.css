@@ -31,7 +31,7 @@ div.listContainer {
     list-style: none;
     display: inline-block;
     text-align: left;
-    padding: 0;
+    padding: 0 30% 0 30%;
 
 }
 
