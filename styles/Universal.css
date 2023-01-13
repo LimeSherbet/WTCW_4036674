@@ -59,9 +59,13 @@
   text-align: center;
 }
 
-#Socials{
+#Socials {
   margin: auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
 }
+
 .header+a{
   font-size: large;
 }
