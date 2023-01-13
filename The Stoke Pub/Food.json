@@ -1,72 +1,68 @@
 {
     "Starters": [
         {
-            "Name": "Vodka Lemonade",
-            "Price": 12.00
+            "Name": "Pretzel",
+            "Price": 5.49
         },
         {
-            "Name": "Long Island Ice Tea",
-            "Price": 12.00
+            "Name": "Cheese Burger Sliders",
+            "Price": 5.69
         },
         {
-            "Name": "Another Alocoholic Beverage",
-            "Price": 12.00
+            "Name": "Sweet Chilli Chicken Bao Buns",
+            "Price": 6.29
         },
         {
-            "Name": "Gin and tonic",
-            "Price": 12.00
+            "Name": "Salt and Pepper Squid",
+            "Price": 6.49
         }
     ],
     "Mains": [
         {
-            "Name": "Water",
-            "Price": 2.00
+            "Name": "Fish And Chips",
+            "Price": 12.19
         },
         {
-            "Name": "Lemonade",
-            "Price": 12.00
+            "Name": "Hunters Chicken",
+            "Price": 9.79
         },
         {
             "Name": "Cola",
             "Price": 12.00
         },
         {
-            "Name": "Orangeade",
-            "Price": 12.00
+            "Name": "Lasagne",
+            "Price": 9.79
         },
         {
-            "Name": "Coffee",
-            "Price": 12.00
+            "Name": "Mac And Cheese",
+            "Price": 8.99
         },
         {
-            "Name": "Tea",
-            "Price": 12.00
+            "Name": "Classic Salad",
+            "Price": 6.29
         }
     ],
     "Desert": [
         {
-            "Name": "Water",
-            "Price": 2.00
+            "Name": "Chocolate Fudge Cake",
+            "Price": 4.99
         },
         {
-            "Name": "Lemonade",
-            "Price": 12.00
+            "Name": "Chocolate Mocha Tart",
+            "Price": 5.69
         },
         {
-            "Name": "Cola",
-            "Price": 12.00
+            "Name": "Triple Chocolate Brownie",
+            "Price": 5.29
         },
         {
-            "Name": "Orangeade",
-            "Price": 12.00
+            "Name": "Mini Pudding",
+            "Price": 5.29
         },
         {
-            "Name": "Coffee",
-            "Price": 12.00
-        },
-        {
-            "Name": "Tea",
-            "Price": 12.00
+            "Name": "Eton Mess Sundae",
+            "Price": 5.49
         }
     ]
 }
