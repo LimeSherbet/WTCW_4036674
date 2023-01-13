@@ -10,7 +10,7 @@
     text-align: center;
 }
 
-#VisitWebsite a:hover {
+#VisitWebsite:hover {
     background-color: brown;
 }
 
