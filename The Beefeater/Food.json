@@ -1,71 +1,71 @@
 {
     "Starters": [
         {
-            "Name": "Vodka Lemonade",
+            "Name": "Buttermilk Chicken Goujons",
             "Price": 12.00
         },
         {
-            "Name": "Long Island Ice Tea",
+            "Name": "Cheesy Grilled Mushrooms",
             "Price": 12.00
         },
         {
-            "Name": "Another Alocoholic Beverage",
+            "Name": "Salt and Pepper Calamari",
             "Price": 12.00
         },
         {
-            "Name": "Gin and tonic",
+            "Name": "Chicken Wings",
             "Price": 12.00
         }
     ],
     "Mains": [
         {
-            "Name": "Water",
+            "Name": "The Sloppy Joe",
             "Price": 2.00
         },
         {
-            "Name": "Lemonade",
+            "Name": "The House Stack",
             "Price": 12.00
         },
         {
-            "Name": "Cola",
+            "Name": "Beer-Battered Haddock and Chips",
             "Price": 12.00
         },
         {
-            "Name": "Orangeade",
+            "Name": "Beef Lasagne",
             "Price": 12.00
         },
         {
-            "Name": "Coffee",
+            "Name": "Beefeater Cobb Salad",
             "Price": 12.00
         },
         {
-            "Name": "Tea",
+            "Name": "Spinach and Ricotta Cannelloni",
             "Price": 12.00
         }
     ],
     "Desert": [
         {
-            "Name": "Water",
+            "Name": "Apple Pie",
             "Price": 2.00
         },
         {
-            "Name": "Lemonade",
+            "Name": "Sticky Toffee Pudding",
             "Price": 12.00
         },
         {
-            "Name": "Cola",
+            "Name": "Tripple Chocolate Brownie",
             "Price": 12.00
         },
         {
-            "Name": "Orangeade",
+            "Name": "Mini Sundae",
             "Price": 12.00
         },
         {
-            "Name": "Coffee",
+            "Name": "Key Lime Pie",
             "Price": 12.00
         },
         {
-            "Name": "Tea",
+            "Name": "Chocolate Layer Torte",
             "Price": 12.00
         }
     ]
