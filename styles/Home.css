@@ -22,6 +22,15 @@ li {
     margin: 20px 0;
 }
 
+li a{
+    display: block;
+    background-color: gray;
+}
+
+li a:hover{
+    background-color: silver;
+}
+
 body {
     background-color: white;
 }
@@ -44,4 +53,14 @@ footer a{
 
 .row + div{
     padding: 0;
+}
+
+#RestrauntSearch{
+    background-image: url('magnifying-glass-solid.svg');
+    background-position: 10px 12px;
+    background-repeat: no-repeat;
+    font-size: 16px;
+    padding: 12px 20px 12px 40px; 
+    border: 1px solid #ddd;
+    margin-bottom: 12px;
 }
