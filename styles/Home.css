@@ -22,11 +22,6 @@ li {
     margin: 20px 0;
 }
 
-li a{
-    display: block;
-    background-color: gray;
-}
-
 li a:hover{
     background-color: silver;
 }
