@@ -50,6 +50,8 @@ h1{
 aside{
     background-color: aquamarine;
     text-align: center;
+    padding-left: 0px;
+    padding-bottom: 0px;
 }
 
 footer a{
@@ -59,8 +61,4 @@ footer a{
 
 .row > div{
     padding: 0px;
-}
-
-aside{
-    padding: 0px ,0px ,15px ,15px
 }
