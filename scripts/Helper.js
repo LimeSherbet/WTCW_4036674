@@ -14,9 +14,9 @@ function GetURLRestaurantParameter() {
 }
 
 function SetSocialsWithJson(data) {
-    $("#Socials").append("<a class = 'icon-block' href=" + data.Socials.Twitter + "><i class='fa-brands fa-twitter'></i></a>");
-    $("#Socials").append("<a class = 'icon-block' href=" + data.Socials.Instagram + "> <i class='fa-brands fa-instagram'></i></a>");
-    $("#Socials").append("<a class = 'icon-block' href=" + data.Socials.Facebook + "><i class='fa-brands fa-facebook'></i></a>");
+    $("#Socials").append("<a class = 'icon-block' href=" + data.Socials.Twitter + "><i class='fa-brands fa-twitter fa-2x'></i></a>");
+    $("#Socials").append("<a class = 'icon-block' href=" + data.Socials.Instagram + "> <i class='fa-brands fa-instagram fa-2x'></i></a>");
+    $("#Socials").append("<a class = 'icon-block' href=" + data.Socials.Facebook + "><i class='fa-brands fa-facebook fa-2x'></i></a>");
 }
 
 function SetSocials() {
