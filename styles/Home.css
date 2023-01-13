@@ -56,3 +56,11 @@ footer a{
     background-color: #24292f;
     text-align: center;
 }
+
+.row > div{
+    padding: 0px;
+}
+
+aside{
+    padding: 0px ,0px ,15px ,15px
+}
