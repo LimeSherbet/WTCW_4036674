@@ -1,0 +1,68 @@
+{
+    "Starters": [
+        {
+            "Name": "Papadum Plain",
+            "Price": 12.00
+        },
+        {
+            "Name": "Papadum Spicy",
+            "Price": 12.00
+        },
+        {
+            "Name": "Mango Chutney",
+            "Price": 12.00
+        },
+        {
+            "Name": "Mint Sauce",
+            "Price": 12.00
+        }
+    ],
+    "Mains": [
+        {
+            "Name": "King Prawn Balti",
+            "Price": 2.00
+        },
+        {
+            "Name": "Chicken Tikka Balti",
+            "Price": 12.00
+        },
+        {
+            "Name": "Lamb Tikka Balti",
+            "Price": 12.00
+        },
+        {
+            "Name": "Prawn Batli",
+            "Price": 12.00
+        },
+        {
+            "Name": "Chicken Balti",
+            "Price": 12.00
+        },
+        {
+            "Name": "Lamb Balti",
+            "Price": 12.00
+        }
+    ],
+    "Desert": [
+        {
+            "Name": "Chocolate Fudge Cake",
+            "Price": 4.99
+        },
+        {
+            "Name": "Chocolate Mocha Tart",
+            "Price": 5.69
+        },
+        {
+            "Name": "Triple Chocolate Brownie",
+            "Price": 5.29
+        },
+        {
+            "Name": "Mini Pudding",
+            "Price": 5.29
+        },
+        {
+            "Name": "Eton Mess Sundae",
+            "Price": 5.49
+        }
+    ]
+}
