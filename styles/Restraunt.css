@@ -17,3 +17,9 @@
 #RestrauntLocation{
     border: 1px;
 }
+
+@media only screen and (min-width: 768px) {
+    p{
+        text-align: left;
+    }
+   }
