@@ -34,6 +34,7 @@ aside{
     background-color: aquamarine;
     text-align: center;
     padding: 10px;
+    overflow-wrap: break-word;
 }
 
 footer a{
