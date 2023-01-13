@@ -50,15 +50,9 @@ h1{
 aside{
     background-color: aquamarine;
     text-align: center;
-    padding-left: 0px;
-    padding-bottom: 0px;
 }
 
 footer a{
     background-color: #24292f;
     text-align: center;
-}
-
-.row > div{
-    padding: 0px;
 }
