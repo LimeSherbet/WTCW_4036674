@@ -1,0 +1,72 @@
+{
+    "Starters": [
+        {
+            "Name": "Vodka Lemonade",
+            "Price": 12.00
+        },
+        {
+            "Name": "Long Island Ice Tea",
+            "Price": 12.00
+        },
+        {
+            "Name": "Another Alocoholic Beverage",
+            "Price": 12.00
+        },
+        {
+            "Name": "Gin and tonic",
+            "Price": 12.00
+        }
+    ],
+    "Mains": [
+        {
+            "Name": "Water",
+            "Price": 2.00
+        },
+        {
+            "Name": "Lemonade",
+            "Price": 12.00
+        },
+        {
+            "Name": "Cola",
+            "Price": 12.00
+        },
+        {
+            "Name": "Orangeade",
+            "Price": 12.00
+        },
+        {
+            "Name": "Coffee",
+            "Price": 12.00
+        },
+        {
+            "Name": "Tea",
+            "Price": 12.00
+        }
+    ],
+    "Desert": [
+        {
+            "Name": "Water",
+            "Price": 2.00
+        },
+        {
+            "Name": "Lemonade",
+            "Price": 12.00
+        },
+        {
+            "Name": "Cola",
+            "Price": 12.00
+        },
+        {
+            "Name": "Orangeade",
+            "Price": 12.00
+        },
+        {
+            "Name": "Coffee",
+            "Price": 12.00
+        },
+        {
+            "Name": "Tea",
+            "Price": 12.00
+        }
+    ]
+}
