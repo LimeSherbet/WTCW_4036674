@@ -6,7 +6,7 @@ $(function OnLoad() {
     })
 })
 
-function QueryRestaurants(QueryRestaurants) {
+function QueryRestaurant(QueryRestaurants) {
   var input, filter, ul, li, a, i, txtValue;
   input = document.getElementById('RestaurantSearch');
   filter = input.value.toUpperCase();
