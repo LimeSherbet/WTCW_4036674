@@ -58,6 +58,6 @@ function setRestaurantNavigation() {
     }
 }
 
-function SetRestrauntHeader() {
+function SetRestaurantHeader() {
     $(".header h1").text(GetURLRestaurantParameter());
 }

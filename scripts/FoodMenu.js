@@ -11,7 +11,7 @@ $(function OnLoad() {
             $("#Deserts").append(`<p>${value.Name} ${CurrencyConvert(value.Price)}</p>`);
         })
     })
-    SetRestrauntHeader();
+    SetRestaurantHeader();
     SetSocials();
     setRestaurantNavigation();
     document.title = "Food Menu - " + URLParmeter;

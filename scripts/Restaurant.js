@@ -2,11 +2,11 @@ $(function OnLoad() {
     var URLParmeter = GetURLRestaurantParameter();
     $.getJSON(URLParmeter + "/Restaurant.json", function (data) {
         $("#BlurbText").text(data.About);
-        $("#RestrauntLocation").attr("src", data.MapURL);
+        $("#RestaurantLocation").attr("src", data.MapURL);
         $("#VisitWebsite").attr("href", data.WebsiteLink);
         SetSocialsWithJson(data);
     })
-    SetRestrauntHeader();
+    SetRestaurantHeader();
     setRestaurantNavigation();
     document.title = "About - " + URLParmeter;
 })

@@ -1,16 +1,16 @@
 $(function OnLoad() {
-    $.getJSON("Restraunts/Restraunts.json", function (data) {
+    $.getJSON("Restaurants/Restaurants.json", function (data) {
         $.each(data, function (key, val) {
-            $("#RestrauntsList").append(`<li><a href=https://limesherbet.github.io/WTCW_4036674/Restaurant.html?Restaurant=${encodeURIComponent(val.url)}>${val.name}</a></li>`)
+            $("#RestaurantsList").append(`<li><a href=https://limesherbet.github.io/WTCW_4036674/Restaurant.html?Restaurant=${encodeURIComponent(val.url)}>${val.name}</a></li>`)
         })
     })
 })
 
-function QueryRestraunts(QueryRestraunts) {
+function QueryRestaurants(QueryRestaurants) {
   var input, filter, ul, li, a, i, txtValue;
-  input = document.getElementById('RestrauntSearch');
+  input = document.getElementById('RestaurantSearch');
   filter = input.value.toUpperCase();
-  ul = document.getElementById("RestrauntsList");
+  ul = document.getElementById("RestaurantsList");
   li = ul.getElementsByTagName('li');
 
   for (i = 0; i < li.length; i++) {

@@ -10,7 +10,7 @@ $(function OnLoad() {
         })
 
     })
-    SetRestrauntHeader();
+    SetRestaurantHeader();
     SetSocials();
     setRestaurantNavigation();
     document.title = "Drink Menu - " + URLParmeter;

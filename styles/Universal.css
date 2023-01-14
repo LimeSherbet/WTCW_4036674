@@ -3,7 +3,7 @@
   text-align: center;
 }
 
-#RestrauntMenu a{
+#RestaurantMenu a{
   display: block;
   padding: 8px;
   background-color: indianred;
@@ -16,7 +16,7 @@ a {
   color: black;
 }
 
-#RestrauntMenu a:hover{
+#RestaurantMenu a:hover{
   background-color: brown;
 }
 
