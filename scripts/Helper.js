@@ -14,7 +14,7 @@ function GetURLRestaurantParameter() {
 }
 
 function SetSocialsWithJson(data) {
-    $.each(data.Socials,function (name,val) {
+    $.each(data.Socials, function (name, val) {
         switch (name) {
             case "Twitter":
                 $("#Socials").append("<a class = 'icon-block' href=" + val + "><i class='fa-brands fa-twitter fa-2x'></i></a>");
@@ -29,7 +29,7 @@ function SetSocialsWithJson(data) {
                 break;
         }
     })
-   
+
 }
 
 function SetSocials() {

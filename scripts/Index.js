@@ -1,9 +1,9 @@
 $(function OnLoad() {
-    $.getJSON("Restaurants/Restaurants.json", function (data) {
-        $.each(data, function (key, val) {
-            $("#RestaurantsList").append(`<li><a href=https://limesherbet.github.io/WTCW_4036674/Restaurant.html?Restaurant=${encodeURIComponent(val.url)}>${val.name}</a></li>`)
-        })
+  $.getJSON("Restaurants/Restaurants.json", function (data) {
+    $.each(data, function (key, val) {
+      $("#RestaurantsList").append(`<li><a href=https://limesherbet.github.io/WTCW_4036674/Restaurant.html?Restaurant=${encodeURIComponent(val.url)}>${val.name}</a></li>`)
     })
+  })
 })
 
 function QueryRestaurant(QueryRestaurants) {
